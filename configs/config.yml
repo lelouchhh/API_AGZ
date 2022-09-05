@@ -1,0 +1,12 @@
+port: "8080"
+
+db:
+  username: "slave"
+  host: "185.200.241.2"
+  port: "5432"
+  dbname: "dungeon"
+  sslmode: "disable"
+
+tools:
+  emailConfirm:
+    path: "./cmd/emailConfirm"
